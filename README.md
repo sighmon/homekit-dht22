@@ -1,4 +1,4 @@
-# HomeKit Enviro+
+# HomeKit DHT22
 
 An [Apple HomeKit](https://developer.apple.com/homekit/) accessory for the [DHT22](https://www.adafruit.com/product/385) temperature and humidity sensor running on a Raspberry Pi.
 
