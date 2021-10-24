@@ -1,0 +1,13 @@
+[Unit]
+Description=HomeKit DHT22-exporter service
+After=network.target dht22-exporter.service
+
+[Service]
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/dev/homekit-dht22
+ExecStart=/home/pi/dev/homekit-dht22/homekit-dht22 --port=8000
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
