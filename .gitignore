@@ -1,3 +1,5 @@
 homekit-dht22
 DHT22
 .vscode
+*.code-workspace
+

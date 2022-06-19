@@ -37,6 +37,7 @@ func init() {
 func main() {
 	info := accessory.Info{
 		Name:             "DHT22",
+		// Note: If running more than one sensor per home, update the serial number
 		SerialNumber:     "DHT22",
 		Manufacturer:     "Guangzhou Aosong Electronic Co., Ltd.",
 		Model:            "DHT22",
